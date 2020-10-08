@@ -2,7 +2,7 @@
 
 **InstagramClone** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **7** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
@@ -27,13 +27,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='InstagramCloneWalkthrough1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I'm having trouble with my emulator. It often runs slowly or force closes applications.
+First I had troouble opening my app. After installing it, the application would open and force close immediately. I fixed the problem in my Manifest file. Then my main activity wasn't appearing on the emulator. My onCreate within the main activity class had one too many parameters. 
 
 ## Open-source libraries used
 
